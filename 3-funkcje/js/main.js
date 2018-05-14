@@ -36,9 +36,8 @@ dodajLiczby(4, 7);
 //funkcje zwracające wartość
 function dodajLiczby(liczba1, liczba2) {
     var wynik = liczba1 + liczba2;
-
+    console.log(wynik);
     return wynik;
 }
 
-var wynikzFunkcji = dodajLiczby(4, 7);
-console.log(wynikzFunkcji);
+dodajLiczby(4, 7);
